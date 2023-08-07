@@ -1,0 +1,2521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feriwala</title>
+
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <!--Font Awesome End-->
+
+        <!--DaisyUi Script-->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!--DaisyUi Script End-->
+        
+        <!--Style.css-->
+        <link rel="stylesheet" href="style.css">
+        <!--Style.css End-->
+    </head>
+
+    <body>
+        <Header>
+            <div class="navbar bg-base-100">
+                <div class="flex-none">
+                  <button class="btn btn-square btn-ghost">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                  </button>
+                </div>
+                <div class="flex-1">
+                  <a class="btn btn-ghost normal-case text-xl">Fazle Elahi</a>
+                </div>
+                <div class="flex-none">
+                  <button class="btn btn-square btn-ghost">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
+                  </button>
+                </div>
+              </div>
+        </Header>
+
+        <main 
+        style="padding: 20px;">
+        <!--Slider Section Start-->
+            <section>
+            <div 
+                style="
+                margin-top: 20px; 
+                margin-bottom: 20px;" 
+                class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="img/banner/b1.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="img/banner/b1.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="img/banner/b1.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="img/banner/b1.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+            </div>
+            </section>
+        <!--Slider Section End-->
+
+        <!--Best Deals Start-->
+            <section>
+                <div 
+                style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+                margin-left: 20px;
+                margin-right: 20px;
+                padding: 50px;">
+                    <div>
+                        <h1 style="font-weight: bold; font-size: 30px;">Best Deals</h1>
+                    </div>
+
+                    <div>
+                        <div class="flex gap-5">
+                    <div>
+                      <span class="countdown font-mono text-4xl">
+                        <span style="--value:15;"></span>
+                      </span>
+                      days
+                    </div> 
+                    <div>
+                      <span class="countdown font-mono text-4xl">
+                        <span style="--value:10;"></span>
+                      </span>
+                      hours
+                    </div> 
+                    <div>
+                      <span class="countdown font-mono text-4xl">
+                        <span style="--value:24;"></span>
+                      </span>
+                      min
+                    </div> 
+                    <div>
+                      <span class="countdown font-mono text-4xl">
+                        <span style="--value:41;"></span>
+                      </span>
+                      sec
+                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div 
+                style="
+                display:flex;
+                justify-content: space-evenly;
+                text-align: center;
+                align-items: center;
+                padding: 50px;">
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+                </div>
+                <div 
+                style="
+                display:flex;
+                justify-content: space-evenly;
+                text-align: center;
+                align-items: center;
+                padding: 50px;">
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+                </div>
+            </section>
+        <!--Best Deals End-->
+
+        <!---->
+        <section 
+        style="
+        background-color: aqua;
+        ">
+            <h1
+            style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;">Section 1</h1>
+            <div 
+                style="
+                display:flex;
+                justify-content: space-evenly;
+                text-align: center;
+                align-items: center;
+                padding: 50px;">
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+                </div>
+
+        </section>
+        <!---->
+
+        <!---->
+        <section 
+        style="
+        background-color: aqua;
+        margin-top: 20px;
+        ">
+            <h1
+            style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;">Section 2</h1>
+            <div 
+                style="
+                display:flex;
+                justify-content: space-evenly;
+                text-align: center;
+                align-items: center;
+                padding: 50px;">
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+                </div>
+
+        </section>
+        <!---->
+
+        <!---->
+        <section 
+        style="
+        background-color: aqua;
+        margin-top: 20px;
+        ">
+            <h1
+            style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;">Section 3</h1>
+            <div 
+                style="
+                display:flex;
+                justify-content: space-evenly;
+                text-align: center;
+                align-items: center;
+                padding: 50px;">
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+                </div>
+
+        </section>
+        <!---->
+
+        <!---->
+        <section 
+        style="
+        background-color: aqua;
+        margin-top: 20px;
+        ">
+            <h1
+            style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;">Section 4</h1>
+            <div 
+                style="
+                display:flex;
+                justify-content: space-evenly;
+                text-align: center;
+                align-items: center;
+                padding: 50px;">
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+                </div>
+
+        </section>
+        <!---->
+
+        <!---->
+        <section 
+        style="
+        background-color: aqua;
+        margin-top: 20px;
+        ">
+            <h1
+            style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;">Section 5</h1>
+            <div 
+                style="
+                display:flex;
+                justify-content: space-evenly;
+                text-align: center;
+                align-items: center;
+                padding: 50px;">
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+                </div>
+
+        </section>
+        <!---->
+
+        <!---->
+        <section 
+        style="
+        background-color: aqua;
+        margin-top: 20px;
+        ">
+            <h1
+            style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;">Section 6</h1>
+            <div 
+                style="
+                display:flex;
+                justify-content: space-evenly;
+                text-align: center;
+                align-items: center;
+                padding: 50px;">
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+                </div>
+
+        </section>
+        <!---->
+
+        <!---->
+        <section 
+        style="
+        background-color: aqua;
+        margin-top: 20px;
+        ">
+            <h1
+            style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;">Section 7</h1>
+            <div 
+                style="
+                display:flex;
+                justify-content: space-evenly;
+                text-align: center;
+                align-items: center;
+                padding: 50px;">
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+                </div>
+
+        </section>
+        <!---->
+
+        <!---->
+        <section 
+        style="
+        background-color: aqua;
+        margin-top: 20px;
+        ">
+            <h1
+            style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;">Section 8</h1>
+            <div 
+                style="
+                display:flex;
+                justify-content: space-evenly;
+                text-align: center;
+                align-items: center;
+                padding: 50px;">
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+                </div>
+
+        </section>
+        <!---->
+
+        <!---->
+        <section 
+        style="
+        background-color: aqua;
+        margin-top: 20px;
+        ">
+            <h1
+            style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;">Section 9</h1>
+            <div 
+                style="
+                display:flex;
+                justify-content: space-evenly;
+                text-align: center;
+                align-items: center;
+                padding: 50px;">
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+                </div>
+
+        </section>
+        <!---->
+
+        <!---->
+        <section 
+        style="
+        background-color: aqua;
+        margin-top: 20px;
+        ">
+            <h1
+            style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;">Section 10</h1>
+            <div 
+                style="
+                display:flex;
+                justify-content: space-evenly;
+                text-align: center;
+                align-items: center;
+                padding: 50px;">
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+
+                    <article 
+                    style="
+                    border: 1px solid;
+                    width: 200px;
+                    padding: 20px;
+                    column-gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center; ">
+                        <img 
+                        style="
+                        height: 200px;
+                        " src="img/products/f1.jpg" alt="">
+
+                        <p 
+                        style="
+                        font-size: 10px;
+                        font-weight: bolder;
+                        padding: 10px;">
+                        Mans Shirt Colorfull shirt brended shirt brended </p>
+                        <p 
+                        style="
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: -20px;
+                        ">
+                        BDT 444
+                        </p> <br>
+                        <p 
+                        style="
+                        font-size: 10px;
+                        ">products in stock (25)</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                            <input type="radio" name="rating-1" class="mask mask-star" />
+                        </div> <br>
+                        <button>Buy Now</button>
+
+                    </article>
+                </div>
+
+        </section>
+        <!---->
+
+        <!--Stat Start-->
+        <div style="justify-content: center; align-items: center; text-align: center; display: flex;" class="stats shadow">
+  
+            <div class="stat place-items-center">
+              <div class="stat-title">Downloads</div>
+              <div class="stat-value">31K</div>
+              <div class="stat-desc">From January 1st to February 1st</div>
+            </div>
+            
+            <div class="stat place-items-center">
+              <div class="stat-title">Users</div>
+              <div class="stat-value text-secondary">4,200</div>
+              <div class="stat-desc text-secondary">↗︎ 40 (2%)</div>
+            </div>
+            
+            <div class="stat place-items-center">
+              <div class="stat-title">New Registers</div>
+              <div class="stat-value">1,200</div>
+              <div class="stat-desc">↘︎ 90 (14%)</div>
+            </div>
+            
+          </div>
+        <!--Stat End-->
+        </main>
+
+        <footer 
+        class="footer p-10 bg-neutral text-neutral-content">
+            <div>
+              <span class="footer-title">Services</span> 
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </div> 
+            <div>
+              <span class="footer-title">Company</span> 
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </div> 
+            <div>
+              <span class="footer-title">Legal</span> 
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+            </div>
+          </footer>
+          <p 
+          style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 12px;
+          font-weight: bold;
+          color: rgb(0, 0, 0);
+          background-color: aqua;
+          padding: 10px;">
+          Copyright © 2023 - All right reserved by Shah Fazle Elahi
+        </p>
+        <script src="script.js"></script>
+    </body>
+
+</html>
